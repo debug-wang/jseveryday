@@ -1,0 +1,144 @@
+/*reset*/
+body { margin: 0;background-color: #fff1f1; }
+p,ul,h1,h2 { -webkit-margin-before: 0; -webkit-margin-after: 0; }
+ul { list-style: none; margin: 0; padding: 0; }
+h1,h2 { font-size: 16px; }
+
+
+/*banner*/
+header {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    background-image: url("../image/beachy-head.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner_bgcolor {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+}
+#logo {
+    position: absolute;
+    z-index: 2;
+    top: 130px;
+    left: 50%;
+    margin-left: -376.5px;
+}
+.days_count {
+    position: absolute;
+    z-index: 2;
+    width:100%;
+    top: 280px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    line-height: 36px;
+    font-family: Microsoft YaHei;
+}
+.days_count>span {
+    font-size: 36px;
+}
+
+/*ul*/
+.index_ul {
+    width: 860px;
+    position: relative;
+    z-index: 2;
+    left: 50%;
+    margin-left: -430px;
+    top: -48px;
+}
+.index_li {
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 180px;
+    padding: 20px 40px;
+    box-shadow: 0 1px 5px #a2a2a2;
+    margin-bottom: 30px;
+    transition: all .3s ease;
+}
+.index_li:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 15px #d3d3d3;
+}
+.article_title {
+    display: inline-block;
+    font-size: 24px;
+    font-family: Microsoft YaHei;
+    line-height: 24px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+.article_time {
+    color: #a2a2a2;
+    margin-left: 15px;
+}
+.article_days_tips {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    background-color: #f90;
+    padding: 0 10px;
+    color: #fff;
+    font-weight: 600;
+    font-family: Microsoft YaHei;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    float: right;
+}
+.article_content {
+    text-indent: 2em;
+    font-size: 14px;
+    color: #5d5d5d;
+    line-height: 24px;
+    margin: 0;
+}
+
+
+/*footer*/
+.footer {
+    height: 80px;
+    background-color: #0b0f22;
+}
+.footer section {
+    width: 860px;
+    margin: 0 auto;
+    height: 80px;
+}
+.footer section>span {
+    color: #a2a2a2;
+    line-height: 80px;
+    font-family: Microsoft YaHei;
+}
+.footer_contact {
+    float: right;
+}
+.footer_mail,
+.footer_weichat,
+.footer_github {
+    float: left;
+    width: 55px;
+    text-align: center;
+}
+.footer_mail:hover i,
+.footer_weichat:hover i,
+.footer_github:hover i {
+    color: #fff;
+    cursor: pointer;
+}
+.footer_mail i,
+.footer_weichat i,
+.footer_github i {
+    color: #a2a2a2;
+    font-size: 24px;
+    line-height: 80px;
+    transition: all .3s ease;
+}
